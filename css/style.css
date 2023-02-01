@@ -61,3 +61,10 @@ ul {
     color: blueviolet;
     list-style-type:circle;
 }
+
+li::marker {
+  color: black;
+  font-size: 1.5em;
+}
+
+
