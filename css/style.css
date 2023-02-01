@@ -1,0 +1,62 @@
+.container {
+    width: 250px;
+    height: 585px;
+    border: 2px solid black;
+    border-radius: 5px;
+    
+    
+  
+}
+.top {
+    
+    text-align: center;
+    border-bottom: 2px solid black;
+    border-radius: 5px;
+    background: linear-gradient( rgb(136, 245, 34), white);
+   
+}
+.top_man {
+    width: 100px;
+}
+
+
+.top_button {
+    margin: 15px auto;
+    width:200px;
+    height: 25px;
+    background-color: rgb(91, 211, 22);
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 1000;
+    color: white;
+    cursor: pointer;
+
+}
+.buttom_pricece {
+display: flex;
+margin-top: 35px;
+}
+
+.buttom_pricece_money {
+    width: 70px;
+}
+.buttom_pricece_number {
+    width: 60px;
+}
+h2 {
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 24px;
+    font-style: italic;
+    color: blueviolet;
+}
+h3 {
+    margin-left: 15px;
+    color: green;
+}
+ul {
+    
+    font-size: 18px;
+    color: blueviolet;
+    list-style-type:circle;
+}
