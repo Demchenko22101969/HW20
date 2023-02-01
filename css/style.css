@@ -1,26 +1,25 @@
 .container {
     width: 250px;
-    height: 590px;
+    height: 550px;
     border: 2px solid black;
-    border-radius: 5px; 
-  
+    border-radius: 5px;
+
 }
+
 .top {
-    
     text-align: center;
     border-bottom: 2px solid black;
     border-radius: 5px;
-    background: linear-gradient( rgb(136, 245, 34), white);
-    
+    background: linear-gradient(rgb(136, 245, 34), white);
 }
+
 .top_man {
-    width: 100px;
-   
+    width: 130px;
 }
 
 .top_button {
-    margin: 15px auto;
-    width:200px;
+    margin: 0 auto 20px;
+    width: 200px;
     height: 25px;
     background-color: rgb(91, 211, 22);
     border-radius: 10px;
@@ -28,19 +27,20 @@
     font-weight: 1000;
     color: white;
     cursor: pointer;
-
-}
-.buttom_pricece {
-display: flex;
-margin-top: 15px;
 }
 
-.buttom_pricece_money {
-    width: 70px;
+.buttom_price {
+    display: flex;
+    margin-top: 15px;
 }
-.buttom_pricece_number {
-    width: 60px;
+
+.buttom_price_money {
+    width: 40px;
 }
+.buttom_price_number {
+    width: 30px;
+}
+
 h2 {
     margin-left: 15px;
     font-weight: bold;
@@ -48,18 +48,22 @@ h2 {
     font-style: italic;
     color: blueviolet;
 }
-h3 {
+
+p {
+    margin: 0;
+    font-size: 20px;
     margin-left: 15px;
     color: green;
 }
+
 ul {
-    
+    margin-top: 5px;
     font-size: 18px;
     color: blueviolet;
     list-style-type: disc;
-    
 }
+
 li::marker {
     color: black;
     font-size: 1.5em;
-  }
+}
