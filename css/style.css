@@ -1,6 +1,6 @@
 .container {
     width: 250px;
-    height: 585px;
+    height: 590px;
     border: 2px solid black;
     border-radius: 5px;
     
@@ -20,7 +20,6 @@
    
 }
 
-
 .top_button {
     margin: 15px auto;
     width:200px;
@@ -35,7 +34,7 @@
 }
 .buttom_pricece {
 display: flex;
-margin-top: 35px;
+margin-top: 15px;
 }
 
 .buttom_pricece_money {
@@ -59,5 +58,10 @@ ul {
     
     font-size: 18px;
     color: blueviolet;
-    list-style-type:circle;
+    list-style-type: disc;
+    
 }
+li::marker {
+    color: black;
+    font-size: 1.5em;
+  }
